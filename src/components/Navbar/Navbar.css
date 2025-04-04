@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    padding-left: 2rem;
+
+    display: flex;
+    gap: 1rem;
+
+    box-shadow: var(--tailwind-box-shadow);
+}
+
+.logo {
+    margin-right: 1rem;
+    letter-spacing: 4px;
+}
+
+.navbar .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > .user-links {
+    flex: 1;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
